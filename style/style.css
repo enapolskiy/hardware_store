@@ -181,13 +181,13 @@ width: 130%;
     
 }
 
-.catalog_list>li:hover .sub_catalog_list_materials{
+.catalog_list>li:hover .sub_catalog_list_materials {
     display: block;
 }
 
 
-.catalog_link {
-margin-left: 55px;
+/* .catalog_link {
+margin-left: 55px; */
 
 
 }
@@ -240,76 +240,7 @@ text-align: center;
 
 
 
-
-
-
-
-.catalog_list_tool {
-    display: flex;
-    margin-top: 15px;
-    position: relative;
-    background-color: aliceblue;
-    }
-
-
-.sub_catalog_list_tool:hover {
-    display: block;
-   
-}
-
-.catalog_link_tool {
-    margin-left: 55px;
-
-
-}
-
-.catalog_list>li:hover .sub_catalog_list_tool {
-    display: block;
-}
-
-.catalog_link_tool a {
-    text-decoration: none;
-    color: #000;
-    line-height: normal;
-    font-weight: 800;
-}
-
-
-.catalog_link_tool a:active {
-    color: rgb(221, 128, 74);
-}
-
-.catalog_link_tool a:hover {
-    color: rgb(221, 128, 74);
-}
-
-
-.sub_catalog_list_tool {
-    width: 167px;
-    display: none;
-    position: absolute;
-    padding-top: 30px;
-    left:160px;
-    top: 20px;
-    /* text-align: center; */
-    background-color:white
-    }
-
-
-.sub_catalog_link_tool {
-    margin-top: 15px;
-    padding-left: 5px;
-}
-
-.sub_catalog_link_tool a {
-
-    line-height: normal;
-    font-weight: 400;
-    text-decoration: none;
-    color: rgb(111, 108, 108);
-}
-
-
+/* Electric */
 
 
 
@@ -379,21 +310,21 @@ text-align: center;
 }
 
 
+/* Tools */
 
 
-
-.catalog_list_tool {
+/* .catalog_list_tool {
     display: flex;
     margin-top: 15px;
     position: relative;
     background-color: aliceblue;
-    }
+    } */
 
 
-.sub_catalog_list_tool:hover {
+/* .sub_catalog_list_tool:hover {
     display: block;
    
-}
+} */
 
 .catalog_link_tool {
     margin-left: 55px;
@@ -589,6 +520,144 @@ text-align: center;
 }
 
 
+/* Fasteners */
+
+.catalog_list_fasteners {
+    display: flex;
+    margin-top: 15px;
+    position: relative;
+    background-color: aliceblue;
+}
+
+
+.sub_catalog_list_fasteners:hover {
+    display: block;
+
+}
+
+.catalog_link_fasteners {
+    margin-left: 55px;
+}
+
+.catalog_link_fasteners a:hover {
+    color: rgb(221, 128, 74);
+}
+
+.catalog_list>li:hover .sub_catalog_list_fasteners {
+    display: block;
+}
+
+.catalog_link_fasteners a {
+    text-decoration: none;
+    color: #000;
+    line-height: normal;
+    font-weight: 800;
+}
+
+
+.sub_catalog_link_fasteners a:active {
+    color: rgb(221, 128, 74);
+}
+
+.sub_catalog_link_fasteners a:hover {
+    color: rgb(221, 128, 74);
+}
+
+
+.sub_catalog_list_fasteners {
+    width: 167px;
+    display: none;
+    position: absolute;
+    padding-top: 30px;
+    left: 901px;
+    top: 20px;
+    /* text-align: center; */
+    background-color: white
+}
+
+
+.sub_catalog_link_fasteners {
+    margin-top: 15px;
+    padding-left: 5px;
+}
+
+.sub_catalog_link_fasteners a {
+
+    line-height: normal;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(111, 108, 108);
+}
+
+
+/* Landscaping */
+
+.catalog_list_landscaping {
+    display: flex;
+    margin-top: 15px;
+    position: relative;
+    background-color: aliceblue;
+}
+
+
+.sub_catalog_list_landscaping:hover {
+    display: block;
+
+}
+
+.catalog_link_landscaping {
+    margin-left: 55px;
+}
+
+.catalog_link_ a:hover {
+    color: rgb(221, 128, 74);
+}
+
+.catalog_list>li:hover .sub_catalog_list_landscaping {
+    display: block;
+}
+
+.catalog_link_landscaping a {
+    text-decoration: none;
+    color: #000;
+    line-height: normal;
+    font-weight: 800;
+}
+
+
+.sub_catalog_link_landscaping a:active {
+    color: rgb(221, 128, 74);
+}
+
+.sub_catalog_link_landscaping a:hover {
+    color: rgb(221, 128, 74);
+}
+
+
+.sub_catalog_list_landscaping {
+    width: 167px;
+    display: none;
+    position: absolute;
+    padding-top: 30px;
+    left: 1019px;
+    top: 20px;
+    /* text-align: center; */
+    background-color: white
+}
+
+
+.sub_catalog_link_landscaping {
+    margin-top: 15px;
+    padding-left: 5px;
+}
+
+.sub_catalog_link_landscaping a {
+
+    line-height: normal;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(111, 108, 108);
+}
 
 
 
